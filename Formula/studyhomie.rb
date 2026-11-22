@@ -8,22 +8,22 @@ class Studyhomie < Formula
   on_macos do
     on_arm do
       url "https://github.com/krilinxito/studyhomie/releases/download/v0.6.0/studyhomie_v0.6.0_darwin_arm64.tar.gz"
-      sha256 "746e3259d0d6eae5e7b11e740139d47c1ecd10c26ccb90d25a0c80fd9e85f25d"
+      sha256 "4e8de8fda24642417322c9794e50b7239d38cefff17e553d7629d9753cef7018"
     end
     on_intel do
       url "https://github.com/krilinxito/studyhomie/releases/download/v0.6.0/studyhomie_v0.6.0_darwin_amd64.tar.gz"
-      sha256 "9b410dd379907b2cab6069aa25bd903543a3add102903b7d9d13c180621bf57a"
+      sha256 "29842ec3dbbfd4a3b2eafb4f15c3d00431d7d9cbf16fccaeff9a64d1ae653f50"
     end
   end
 
   on_linux do
     on_arm do
       url "https://github.com/krilinxito/studyhomie/releases/download/v0.6.0/studyhomie_v0.6.0_linux_arm64.tar.gz"
-      sha256 "8b9969ad7693c157313c8ce62f0e49a366cd269190dc87e8304a77387de97224"
+      sha256 "331438e85bce36a11e70180ca25b087a4846844d61520fe8c6c7ecd2c71f61da"
     end
     on_intel do
       url "https://github.com/krilinxito/studyhomie/releases/download/v0.6.0/studyhomie_v0.6.0_linux_amd64.tar.gz"
-      sha256 "2d658fa67daa2ee734e327fa37bba04362ad8f2daef0bc0ba54b88352a56c9d1"
+      sha256 "e849c9442bc5edfabb244c787beed06aa647ba1ffe1893a6bc86c3326af555b4"
     end
   end
 
