@@ -2,28 +2,28 @@
 class Studyhomie < Formula
   desc "AI study assistant: guides, the iceberg of prerequisites, roadmaps and practice"
   homepage "https://studyhomie.maxi42.space"
-  version "0.5.0"
+  version "0.6.0"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/krilinxito/studyhomie/releases/download/v0.5.0/studyhomie_v0.5.0_darwin_arm64.tar.gz"
-      sha256 "f84703f9fc7c8abfd7841512279899aefacb0634eac96b3126a1b2be32af6436"
+      url "https://github.com/krilinxito/studyhomie/releases/download/v0.6.0/studyhomie_v0.6.0_darwin_arm64.tar.gz"
+      sha256 "746e3259d0d6eae5e7b11e740139d47c1ecd10c26ccb90d25a0c80fd9e85f25d"
     end
     on_intel do
-      url "https://github.com/krilinxito/studyhomie/releases/download/v0.5.0/studyhomie_v0.5.0_darwin_amd64.tar.gz"
-      sha256 "8d6eb10113362d9a59a6a7a03227d45188cdcb7b691c9672a03ae9aa87f869de"
+      url "https://github.com/krilinxito/studyhomie/releases/download/v0.6.0/studyhomie_v0.6.0_darwin_amd64.tar.gz"
+      sha256 "9b410dd379907b2cab6069aa25bd903543a3add102903b7d9d13c180621bf57a"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/krilinxito/studyhomie/releases/download/v0.5.0/studyhomie_v0.5.0_linux_arm64.tar.gz"
-      sha256 "5d444241f5ddd62bb9a80c88ced7f959af3b7ee6e38b2665ce973110f5cc90a2"
+      url "https://github.com/krilinxito/studyhomie/releases/download/v0.6.0/studyhomie_v0.6.0_linux_arm64.tar.gz"
+      sha256 "8b9969ad7693c157313c8ce62f0e49a366cd269190dc87e8304a77387de97224"
     end
     on_intel do
-      url "https://github.com/krilinxito/studyhomie/releases/download/v0.5.0/studyhomie_v0.5.0_linux_amd64.tar.gz"
-      sha256 "28c193141da38e37300934e6a0603f4c8142bc95b73e36df93ed6ed66ef01fa5"
+      url "https://github.com/krilinxito/studyhomie/releases/download/v0.6.0/studyhomie_v0.6.0_linux_amd64.tar.gz"
+      sha256 "2d658fa67daa2ee734e327fa37bba04362ad8f2daef0bc0ba54b88352a56c9d1"
     end
   end
 
